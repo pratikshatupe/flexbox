@@ -3,25 +3,25 @@
   <head>
     <title>Flex Box</title>
     <style>
+      .conatiner {
+        height: 500px;
+        background-color: palevioletred;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: palevioletred;
+        padding: 5px;
+        border-radius: 5px;
+      }
+
       .item {
-        height: 100px;
-        width: 100px;
-        background-color: #b1dddf;
+        background-color:orange;
+        height: 150px;
+        width: 150px;
         margin: 10px;
         font-size: 50px;
         padding: 5px;
         border-radius: 10px;
         border: solid 1px white;
-      }
-
-      .container {
-        display: flex;
-        flex-direction: column-reverse;
-        height: 380px;
-        width: 250px;
-        background-color:blueviolet;
-        padding: 5px;
-        border-radius: 5px;
       }
     </style>
   </head>
@@ -36,15 +36,18 @@
     <a href="./flex wrap.html"> FLEX WRAP</a> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="./flex direction colome.html"> FLEX DIRECTION COLOME</a> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <div class="container">
+    <div class="conatiner">
       <div class="item">
-        <img src="./../images/movie 1.jfif" height="100" width="100">
-     </div>
-      <div class="item">
-        <img src="./../images/movie 2.jfif" height="100" width="100">
+        <img src="./../images/apple.jfif" height="150" width="150">
       </div>
       <div class="item">
-        <img src="./../images/movie 3.jfif" height="100" width="100">
+        <img src="./../images/banana.jfif" height="150" width="150">
+      </div>
+      <div class="item">
+        <img src="./../images/orange.jfif" height="150" width="150">
+      </div>
+      <div class="item">
+        <img src="./../images/watermelon.jfif" height="150" width="150">
       </div>
     </div>
   </body>
